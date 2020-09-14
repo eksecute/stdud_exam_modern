@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "stdud-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/stdudWebPart/StdudWebPartWebPart.js",
+          "manifest": "./src/webparts/stdudWebPart/StdudWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StdudWebPartWebPartStrings": "lib/webparts/stdudWebPart/loc/{locale}.js"
+  }
+}
